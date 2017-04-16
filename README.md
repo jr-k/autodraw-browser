@@ -1,7 +1,10 @@
 Autodraw browser
 ================
 
+This is a very simple unofficial integration of autodraw based on canvas
+
 # Preview
+
 
 ![alt text](http://puu.sh/vmeQO/a37d165d5b.png "Preview")
 
