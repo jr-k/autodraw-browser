@@ -25,7 +25,7 @@
 				currY = 0,
 				highlightStartPoint = false;
 
-			var dColor = "black", dColorStartingPoint = "black", dStroke = 2;
+			var dColor = "black", dColorStartingPoint = "black", dStroke = 8;
 			
 			function init() {
 				canvas = document.getElementById("can");
@@ -66,6 +66,9 @@
 				ctx.moveTo(prevX, prevY);
 				ctx.lineTo(currX, currY);
 				ctx.strokeStyle = dColor;
+				ctx.fillStyle = dColor;
+				ctx.lineCap = "round";
+				ctx.lineJoin = "round";
 				ctx.lineWidth = dStroke;
 				ctx.stroke();
 				ctx.closePath();
